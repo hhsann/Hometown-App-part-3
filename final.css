@@ -1,0 +1,43 @@
+.body {
+font-size : 16px;
+}
+.snippet__thumbnail > img {
+    width: 100%;
+    }
+.snippet {
+display: flex;
+flex-wrap: flex;
+}
+.snipp title {
+order: 0;
+width: 100%;
+}
+.snippet_thumbnail {
+order: 1;
+width: 30%;
+}
+.snippet_description {
+order: 2;
+width: 70%;
+overflow: hidden;
+display: webkit-box;
+text-overflow: elipssis;
+
+}
+@media screen and (max-width: 450px) {
+  .snippet__thumbnail {
+  display: none;
+  }
+  .snippet_description {
+  width: 100%;
+  }
+  }
+  @media screen and (max-width: 550px) {
+  .scores_table {
+  display: none;
+  }
+  @media screen and (min- width: 750px) {
+  .scores_table {
+  font-size: 12px
+
+
